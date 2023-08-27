@@ -82,15 +82,16 @@ const About = () => {
           </a>
         </div>
         <p className="mt-5">
-          I have a passion for creating. My fascination for technology led me to
-          the world of software engineering. I'm constantly hungry to learn,
-          always eager to grasp new technologies, and consistently to looking
-          broaden my skill set. Outside of coding, I enjoy retro video games,
-          sci-fi movies, and pickleball!
+          I have a passion for creating intuitive and useful applications. My
+          fascination with technology led me to the world of software
+          engineering. I'm constantly hungry to learn, always eager to grasp new
+          technologies, and consistently looking to broaden my skill set.
+          Outside of coding, I enjoy retro video games, sci-fi movies, and
+          pickleball!
         </p>
         <div
           className="underline"
-          style={{ width: `${scrollPercentage - 20}%` }}
+          style={{ width: `${scrollPercentage - 30}%` }}
         ></div>
       </Container>
     </>
