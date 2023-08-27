@@ -1,0 +1,26 @@
+.image-container .img-wrapper {
+  padding: 8%;
+}
+
+.image-container .img-wrapper img {
+  width: 100%;
+  max-width: 100%;
+}
+.image-label {
+  text-align: center; /* Center the label text */
+  margin-top: 8px; /* Add some space between the image and the label */
+  word-wrap: break-word; /* Prevent the text from overflowing */
+}
+.img-wrapper img {
+  width: 100%;
+  max-width: 150px; /* Adjust this to your preference */
+  margin: 0 auto;
+  display: block;
+}
+
+@media (min-width: 576px) {
+  .img-wrapper img {
+    max-width: none;
+    width: 100%;
+  }
+}
