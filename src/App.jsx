@@ -1,15 +1,14 @@
-import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import NavMain from "./components/NavMain";
+import About from "./components/About";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Container>
       <NavMain />
+      <About />
     </Container>
   );
 }

@@ -1,11 +1,11 @@
 /* Initial styles for the link */
-.text-white {
+.hoverlined {
   position: relative;
   overflow: hidden;
 }
 
 /* Pseudo-element for the underline */
-.text-white::after {
+.hoverlined::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -19,7 +19,7 @@
 }
 
 /* Hover effect */
-.text-white:hover::after {
+.hoverlined:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }

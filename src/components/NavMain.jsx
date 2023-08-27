@@ -13,7 +13,9 @@ function NavMain() {
           <div>
             {" "}
             <Navbar.Brand
-              href="#home"
+              href="https://www.linkedin.com/in/ryanayip/"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -27,7 +29,7 @@ function NavMain() {
                 className="d-inline-block align-top"
               />
               <span
-                className="text-white"
+                className="text-white hoverlined"
                 style={{ marginLeft: 18, fontSize: 16 }}
               >
                 Ryan Yip | Software Engineer
@@ -38,13 +40,13 @@ function NavMain() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ml-auto">
-                <Nav.Link href="#About" className="text-white ">
+                <Nav.Link href="#About" className="text-white hoverlined">
                   About
                 </Nav.Link>
-                <Nav.Link href="#Projects" className="text-white">
+                <Nav.Link href="#Projects" className="text-white hoverlined">
                   Projects
                 </Nav.Link>
-                <Nav.Link href="#Contact" className="text-white">
+                <Nav.Link href="#Contact" className="text-white hoverlined">
                   Contact
                 </Nav.Link>
               </Nav>
