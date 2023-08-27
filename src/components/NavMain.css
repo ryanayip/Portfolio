@@ -1,10 +1,8 @@
-/* Initial styles for the link */
 .hoverlined {
   position: relative;
   overflow: hidden;
 }
 
-/* Pseudo-element for the underline */
 .hoverlined::after {
   content: "";
   position: absolute;

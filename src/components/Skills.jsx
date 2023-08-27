@@ -9,8 +9,7 @@ import cpp from "../assets/skill-icons/cpp.png";
 import python from "../assets/skill-icons/python.png";
 import java from "../assets/skill-icons/java.png";
 import Image from "react-bootstrap/Image";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+
 import "./Skills.css";
 import { useEffect, useState } from "react";
 
@@ -30,7 +29,6 @@ const Skills = () => {
 
     window.addEventListener("scroll", onScroll);
 
-    // Clean up the listener when the component is unmounted
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (

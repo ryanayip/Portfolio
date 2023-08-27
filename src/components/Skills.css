@@ -5,10 +5,8 @@
 }
 
 .flex-item {
-  flex-basis: calc(
-    25% - 40px
-  ); /* 25% for 4 items in a row, minus a small gap */
-  margin: 5px; /* Half of the 10px from above to create the gap */
+  flex-basis: calc(25% - 40px);
+  margin: 5px;
   box-sizing: border-box;
 }
 
@@ -24,17 +22,13 @@
 }
 
 @media (max-width: 400px) {
-  /* Adjust as per your breakpoint needs */
   .flex-item {
-    flex-basis: calc(
-      40% - 10px
-    ); /* Change to 50% for 2 items in a row on smaller screens */
+    flex-basis: calc(40% - 10px);
   }
 }
 
 @media (max-width: 50px) {
-  /* Adjust as per your breakpoint needs */
   .flex-item {
-    flex-basis: 100%; /* One item per row on very small screens */
+    flex-basis: 100%;
   }
 }
