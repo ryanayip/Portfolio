@@ -1,0 +1,25 @@
+/* Initial styles for the link */
+.text-white {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Pseudo-element for the underline */
+.text-white::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #ff6a6a;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.text-white:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
