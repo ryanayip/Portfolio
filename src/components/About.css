@@ -11,3 +11,10 @@
   fill: #ff6a6a;
   filter: drop-shadow(0 0 1.2px #ff6a6a); /* Glowing effect */
 }
+
+.underline {
+  height: 5px;
+  background-color: #ff6a6a;
+  width: 20%;
+  transition: width 0.3s;
+}
