@@ -43,6 +43,9 @@ function NavMain() {
                 <Nav.Link href="#About" className="text-white hoverlined">
                   About
                 </Nav.Link>
+                <Nav.Link href="#About" className="text-white hoverlined">
+                  Skills
+                </Nav.Link>
                 <Nav.Link href="#Projects" className="text-white hoverlined">
                   Projects
                 </Nav.Link>
