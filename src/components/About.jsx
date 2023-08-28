@@ -17,7 +17,6 @@ const About = () => {
 
     window.addEventListener("scroll", onScroll);
 
-    // Clean up the listener when the component is unmounted
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (

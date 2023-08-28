@@ -4,12 +4,12 @@
 }
 
 .links a {
-  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  transition: all 0.3s ease;
 }
 
 .links a:hover svg {
   fill: #ff6a6a;
-  filter: drop-shadow(0 0 1.2px #ff6a6a); /* Glowing effect */
+  filter: drop-shadow(0 0 1.2px #ff6a6a);
 }
 
 .underline {
