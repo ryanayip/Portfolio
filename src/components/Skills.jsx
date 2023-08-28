@@ -32,7 +32,7 @@ const Skills = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
-    <Container className="text-white mt-5">
+    <Container className="text-white mt-5" style={{ marginBottom: 140 }}>
       <h2 className="mb-5">My Skills</h2>
       <Container className="flex-container">
         <div className="flex-item">

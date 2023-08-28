@@ -1,0 +1,27 @@
+.techUsed {
+  display: flex;
+  list-style: none;
+  border: 1px solid #ff6a6a;
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 0.5rem;
+}
+
+.techItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-left: 0;
+}
+
+.cont-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.project-cont {
+  display: flex;
+}
