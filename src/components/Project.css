@@ -93,9 +93,30 @@
   border: none;
   width: 14rem;
 }
+.view-btn:active {
+  outline: none; /* Remove default browser outline */
+}
 
 .main-cont {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+.btn.view-btn:active,
+.btn.view-btn:focus,
+.btn.view-btn.btn:focus:active {
+  background-color: #ff6a6a;
+
+  box-shadow: 2px 2px 0 #0b161d;
+  outline: none; /* Removes the default browser outline */
+}
+
+/* Make sure to remove the blue shadow that bootstrap might add */
+.btn.view-btn:focus,
+.btn.view-btn:active,
+.btn.view-btn:active:focus {
+  box-shadow: 2px 2px 0 #0b161d;
+  border-right: 4px solid#0B161D;
+  border-bottom: 4px solid #0b161d;
 }

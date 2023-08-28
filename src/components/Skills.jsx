@@ -71,7 +71,7 @@ const Skills = () => {
 
       <div
         className="underline"
-        style={{ width: `${scrollPercentage - 60}%` }}
+        style={{ width: `${scrollPercentage + 10}%` }}
       ></div>
     </Container>
   );

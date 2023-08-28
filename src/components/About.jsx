@@ -91,7 +91,7 @@ const About = () => {
         </p>
         <div
           className="underline"
-          style={{ width: `${scrollPercentage - 30}%` }}
+          style={{ width: `${scrollPercentage + 30}%` }}
         ></div>
       </Container>
     </>
