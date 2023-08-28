@@ -10,10 +10,15 @@ function App() {
   return (
     <Container>
       <NavMain />
+      <div id="About"></div>
       <About />
+      <div id="Skills"></div>
       <Skills />
-      <h2 className="text-white mb-5">My Projects</h2>
+      <h2 id="Projects" className="text-white mb-5">
+        My Projects
+      </h2>
       <Project />
+      <div id="Contact"></div>
     </Container>
   );
 }

@@ -8,7 +8,7 @@ import "./NavMain.css";
 function NavMain() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" variant="dark">
+      <Navbar expand="lg" variant="dark">
         <Container>
           <div>
             {" "}
@@ -43,7 +43,7 @@ function NavMain() {
                 <Nav.Link href="#About" className="text-white hoverlined">
                   About
                 </Nav.Link>
-                <Nav.Link href="#About" className="text-white hoverlined">
+                <Nav.Link href="#Skills" className="text-white hoverlined">
                   Skills
                 </Nav.Link>
                 <Nav.Link href="#Projects" className="text-white hoverlined">
