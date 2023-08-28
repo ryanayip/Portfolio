@@ -5,7 +5,7 @@
 }
 
 .flex-item {
-  flex-basis: calc(25% - 40px);
+  flex-basis: calc(25% - 60px);
   margin: 5px;
   box-sizing: border-box;
 }
@@ -16,7 +16,7 @@
 }
 
 .flex-item img {
-  max-width: 40%;
+  max-width: 30%;
   display: block;
   margin: 0 auto;
 }
