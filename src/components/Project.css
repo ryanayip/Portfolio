@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   padding: 0rem 0.5rem;
+  background-color: #0b161d;
 }
 
 .techItems {
@@ -16,16 +17,85 @@
   padding-left: 0;
 }
 
+.project-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Optional: to put some space between the two containers */
+  gap: 1rem; /* Provides consistent spacing between flex items; can adjust as needed */
+}
+
+.cont-left,
+.cont-right {
+  flex: 1; /* Optional: to take equal width when side by side */
+}
+
 .cont-left {
+  display: flex;
+
+  flex-direction: column;
+  gap: 2rem;
+}
+.cont-right {
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Still keeping overflow hidden for good measure */
+  border-radius: 18px; /* Re-apply border-radius directly to the image */
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.project-pic {
+  height: 24rem;
+  width: 24rem;
+  object-fit: contain;
+  display: block;
+  /* Create a detached outline using box-shadow */
+  box-shadow: 4px 4px 0 #0b161d; /* 8px is the offset of the shadow. Adjust as needed. */
+  transition: all 0.3s; /* Makes the hover effect smooth */
+  border-radius: 18px; /* Re-apply border-radius directly to the image */
+}
+
+.project-pic:hover {
+  /* On hover, move the image to 'fit' into the outline */
+  transform: translate(8px, 8px);
+  /* Replace the box-shadow with a border to give the illusion of falling into the outline */
+  box-shadow: none;
+  border-right: 4px solid#0B161D;
+  border-bottom: 4px solid #0b161d;
+}
+
+/* Media query for screens smaller than 768px (typical breakpoint for tablets and below) */
+@media (max-width: 767px) {
+  .project-cont {
+    flex-direction: column;
+  }
+  .project-pic {
+    border-radius: 18px; /* Increased border-radius */
+    height: 18rem;
+    width: 18em;
+  }
+}
+
+.view-btn:hover {
+  /* On hover, move the image to 'fit' into the outline */
+  transform: translate(8px, 8px);
+  /* Replace the box-shadow with a border to give the illusion of falling into the outline */
+  box-shadow: none;
+  border-right: 4px solid#0B161D;
+  border-bottom: 4px solid #0b161d;
+  background-color: #ff6a6a;
+}
+
+.view-btn {
+  box-shadow: 4px 4px 0 #0b161d; /* 8px is the offset of the shadow. Adjust as needed. */
+  transition: all 0.3s; /* Makes the hover effect smooth */
+  background-color: #ff6a6a;
+  border: none;
+  width: 14rem;
+}
+
+.main-cont {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-}
-
-.project-cont {
-  display: flex;
-}
-
-.cont-right {
-  width: 70%;
 }
