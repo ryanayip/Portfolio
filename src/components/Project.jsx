@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import "./Project.css";
 import Image from "react-bootstrap/Image";
-import rpg from "../assets/skill-icons/react.png";
+import rpg from "../assets/projects/rpgpic.png";
 
 const Project = () => {
   return (
@@ -30,7 +30,7 @@ const Project = () => {
         </p>
       </Container>
       <Container className="cont-right">
-        <Image src={rpg} />
+        <Image src={rpg} rounded fluid />
       </Container>
     </Container>
   );

@@ -25,3 +25,7 @@
 .project-cont {
   display: flex;
 }
+
+.cont-right {
+  width: 70%;
+}
