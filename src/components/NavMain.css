@@ -16,7 +16,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Hover effect */
 .hoverlined:hover::after {
   transform: scaleX(1);
   transform-origin: left;
