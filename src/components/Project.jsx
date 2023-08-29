@@ -28,7 +28,9 @@ const Project = () => {
           </p>
         </Container>
         <Container className="cont-right">
-          <Image src={rpg} className="project-pic" />
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <Image src={rpg} className="project-pic" />
+          </a>{" "}
         </Container>
       </Container>
       <Container className="text-white project-cont">
@@ -51,30 +53,45 @@ const Project = () => {
           </p>
         </Container>
         <Container className="cont-right">
-          <Image src={rpg} className="project-pic" />
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <Image src={rpg} className="project-pic" />
+          </a>{" "}
         </Container>
       </Container>
       <Container className="text-white project-cont">
         <Container className="cont-left">
-          <h2 className="mb-4">Project Title</h2>
+          <h2 className="mb-4">RPG</h2>
           <ul className="techItems">
-            <li className="techUsed">React</li>
             <li className="techUsed">JavaScript</li>
             <li className="techUsed">HTML</li>
             <li className="techUsed">CSS</li>
-            <li className="techUsed">Firebase</li>
             <li className="techUsed">Netlify</li>
           </ul>
-          <Button size="lg" className="view-btn">
+          <Button
+            size="lg"
+            className="view-btn"
+            href="https://ryanayiprpg.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            as="a"
+          >
             View Project
           </Button>
           <p>
-            This project is being described in this paragraph. It's such a cool
-            project. I used a buynch of stuff. It can do cool stuff
+            A simple RPG game where you battle your way through three enemies to
+            win the game. The damage is determined by random dice rolls and the
+            data is pulled from a hard-coded JSON file. The game is built using
+            Vanilla JavaScript, HTML, and Vanilla CSS. Deployed on Netlify.
           </p>
         </Container>
         <Container className="cont-right">
-          <Image src={rpg} className="project-pic" />
+          <a
+            href="https://ryanayiprpg.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={rpg} className="project-pic" />
+          </a>{" "}
         </Container>
       </Container>
     </Container>

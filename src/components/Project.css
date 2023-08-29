@@ -22,6 +22,9 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 1rem;
+  border-right: 4px solid#0B161D;
+  border-bottom: 4px solid #0b161d;
+  border-radius: 18px;
 }
 
 .cont-left {
