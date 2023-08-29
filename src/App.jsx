@@ -5,6 +5,7 @@ import NavMain from "./components/NavMain";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         My Projects
       </h2>
       <Project />
+      <Contact />
       <div id="Contact"></div>
     </Container>
   );

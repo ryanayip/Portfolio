@@ -1,0 +1,23 @@
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0b161d;
+  color: #8b9eaa;
+  flex-direction: row;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .contact-main {
+    flex-direction: column;
+  }
+}

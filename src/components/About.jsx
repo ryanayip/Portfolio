@@ -39,7 +39,7 @@ const About = () => {
               xmlns="http://www.w3.org/2000/svg"
               width="38"
               height="38"
-              fill="#FF6A6A"
+              fill="#8b9eaa"
               class="bi bi-github"
               viewBox="0 0 16 16"
             >
@@ -55,7 +55,7 @@ const About = () => {
               xmlns="http://www.w3.org/2000/svg"
               width="38"
               height="38"
-              fill="#FF6A6A"
+              fill="#8b9eaa"
               class="bi bi-linkedin"
               viewBox="0 0 16 16"
             >
@@ -72,7 +72,7 @@ const About = () => {
               xmlns="http://www.w3.org/2000/svg"
               width="38"
               height="38"
-              fill="#FF6A6A"
+              fill="#8b9eaa"
               class="bi bi-envelope-fill"
               viewBox="0 0 16 16"
             >
