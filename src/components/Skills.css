@@ -37,7 +37,7 @@ img {
   }
   .skills-cont {
     flex-direction: row;
-    gap: 6rem;
+    gap: 8rem;
   }
 }
 
