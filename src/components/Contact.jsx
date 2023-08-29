@@ -1,11 +1,11 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+
 import Nav from "react-bootstrap/Nav";
 import "./Contact.css";
 
 const Contact = () => {
   return (
-    <Container className="mt-5 contact-main">
+    <div className="mt-5 contact-main">
       <Nav className="contact-icons">
         <Nav.Link
           href="https://github.com/ryanayip"
@@ -58,7 +58,7 @@ const Contact = () => {
         </Nav.Link>
       </Nav>
       <div>Built and designed by Ryan Yip with React + Bootstrap</div>
-    </Container>
+    </div>
   );
 };
 

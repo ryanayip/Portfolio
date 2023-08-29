@@ -9,19 +9,21 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <Container>
-      <NavMain />
-      <div id="About"></div>
-      <About />
-      <div id="Skills"></div>
-      <Skills />
-      <h2 id="Projects" className="text-white mb-5">
-        My Projects
-      </h2>
-      <Project />
-      <Contact />
+    <>
+      <Container>
+        <NavMain />
+        <div id="About"></div>
+        <About />
+        <div id="Skills"></div>
+        <Skills />
+        <h2 id="Projects" className="text-white mb-5">
+          My Projects
+        </h2>
+        <Project />
+      </Container>
       <div id="Contact"></div>
-    </Container>
+      <Contact />
+    </>
   );
 }
 
