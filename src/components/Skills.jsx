@@ -34,38 +34,42 @@ const Skills = () => {
   return (
     <Container className="text-white mt-5" style={{ marginBottom: 140 }}>
       <h2 className="mb-5">My Skills</h2>
-      <Container className="flex-container">
-        <div className="flex-item">
-          <Image src={html} />
-          <div className="image-label">HTML</div>
+      <Container className="skills-cont">
+        <div className="top-row">
+          <div className="flex-item">
+            <Image src={html} />
+            <div className="image-label">HTML</div>
+          </div>
+          <div className="flex-item">
+            <Image src={css} />
+            <div className="image-label">CSS</div>
+          </div>
+          <div className="flex-item">
+            <Image src={js} />
+            <div className="image-label">JavaScript</div>
+          </div>
+          <div className="flex-item">
+            <Image src={react} />
+            <div className="image-label">React</div>
+          </div>
         </div>
-        <div className="flex-item">
-          <Image src={css} />
-          <div className="image-label">CSS</div>
-        </div>
-        <div className="flex-item">
-          <Image src={js} />
-          <div className="image-label">JavaScript</div>
-        </div>
-        <div className="flex-item">
-          <Image src={react} />
-          <div className="image-label">React</div>
-        </div>
-        <div className="flex-item">
-          <Image src={java} />
-          <div className="image-label">Java</div>
-        </div>
-        <div className="flex-item">
-          <Image src={python} />
-          <div className="image-label">Python</div>
-        </div>
-        <div className="flex-item">
-          <Image src={cpp} />
-          <div className="image-label">C++</div>
-        </div>
-        <div className="flex-item">
-          <Image src={bootstrap} />
-          <div className="image-label">Bootstrap</div>
+        <div className="bot-row">
+          <div className="flex-item">
+            <Image src={java} />
+            <div className="image-label">Java</div>
+          </div>
+          <div className="flex-item">
+            <Image src={python} />
+            <div className="image-label">Python</div>
+          </div>
+          <div className="flex-item">
+            <Image src={cpp} />
+            <div className="image-label">C++</div>
+          </div>
+          <div className="flex-item">
+            <Image src={bootstrap} />
+            <div className="image-label">Bootstrap</div>
+          </div>
         </div>
       </Container>
 
