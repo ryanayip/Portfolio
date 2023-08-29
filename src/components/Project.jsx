@@ -15,11 +15,12 @@ const Project = () => {
           <ul className="techItems">
             <li className="techUsed">React</li>
             <li className="techUsed">Bootstrap</li>
+            <li className="techUsed">Axios</li>
+            <li className="techUsed">RESTful API</li>
             <li className="techUsed">JavaScript</li>
             <li className="techUsed">HTML</li>
             <li className="techUsed">CSS</li>
 
-            <li className="techUsed">RESTful API</li>
             <li className="techUsed">Netlify</li>
           </ul>
           <Button size="lg" className="view-btn">
