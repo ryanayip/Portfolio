@@ -13,6 +13,7 @@ function NavMain() {
           <div>
             {" "}
             <Navbar.Brand
+              className="navbar-text"
               href="https://www.linkedin.com/in/ryanayip/"
               target="_blank"
               rel="noopener noreferrer"
@@ -26,7 +27,7 @@ function NavMain() {
                 src={icon}
                 width="26"
                 height="26"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top coding-icon"
               />
               <span
                 className="text-white hoverlined"

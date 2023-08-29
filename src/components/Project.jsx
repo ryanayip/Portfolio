@@ -35,7 +35,7 @@ const Project = () => {
       </Container>
       <Container className="text-white project-cont">
         <Container className="cont-left">
-          <h2 className="mb-4">Grocery Pal</h2>
+          <h2 className="mb-4">GroceryPal</h2>
           <ul className="techItems">
             <li className="techUsed">JavaScript</li>
             <li className="techUsed">HTML</li>

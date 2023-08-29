@@ -20,3 +20,8 @@
   transform: scaleX(1);
   transform-origin: left;
 }
+
+.coding-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
