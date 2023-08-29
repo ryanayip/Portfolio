@@ -11,12 +11,15 @@ const Project = () => {
     <Container className="main-cont">
       <Container className="text-white project-cont">
         <Container className="cont-left">
-          <h2 className="mb-4">Project Title</h2>
+          <h2 className="mb-4">PantryPlate</h2>
           <ul className="techItems">
             <li className="techUsed">React</li>
+            <li className="techUsed">Bootstrap</li>
             <li className="techUsed">JavaScript</li>
             <li className="techUsed">HTML</li>
             <li className="techUsed">CSS</li>
+
+            <li className="techUsed">RESTful API</li>
             <li className="techUsed">Netlify</li>
           </ul>
           <Button size="lg" className="view-btn">
