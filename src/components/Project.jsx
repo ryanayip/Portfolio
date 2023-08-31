@@ -4,8 +4,8 @@ import Button from "react-bootstrap/Button";
 import "./Project.css";
 import Image from "react-bootstrap/Image";
 import rpg from "../assets/projects/rpgpic.PNG";
-import grocery from "../assets/projects/grocerypal.png";
-import pantryplate from "../assets/projects/pplate.png";
+import grocery from "../assets/projects/grocerypal.PNG";
+import pantryplate from "../assets/projects/pplate.PNG";
 
 const Project = () => {
   return (
