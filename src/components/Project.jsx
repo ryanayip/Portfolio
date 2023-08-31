@@ -5,6 +5,7 @@ import "./Project.css";
 import Image from "react-bootstrap/Image";
 import rpg from "../assets/projects/rpgpic.png";
 import grocery from "../assets/projects/grocerypal.png";
+import pantryplate from "../assets/projects/pplate.png";
 
 const Project = () => {
   return (
@@ -23,17 +24,32 @@ const Project = () => {
 
             <li className="techUsed">Netlify</li>
           </ul>
-          <Button size="lg" className="view-btn">
+          <Button
+            size="lg"
+            className="view-btn"
+            href="https://pantryplate.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            as="a"
+          >
             View Project
           </Button>
           <p>
-            This project is being described in this paragraph. It's such a cool
-            project. I used a buynch of stuff. It can do cool stuff
+            PantryPlate is a user-friendly web application that assists home
+            chefs in searching for recipes based on available ingredients. The
+            platform offers an intuitive interface where users can input their
+            ingredients, explore potential recipes, and save favorites for
+            future reference. PantryPlate is built using React, Bootstrap,
+            JavaScript, HTML, and CSS. Deployed on Netlify.
           </p>
         </Container>
         <Container className="cont-right">
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <Image src={rpg} className="project-pic" />
+          <a
+            href="https://pantryplate.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={pantryplate} className="project-pic" />
           </a>{" "}
         </Container>
       </Container>
@@ -97,7 +113,7 @@ const Project = () => {
           <p>
             A simple RPG game where you battle your way through three enemies to
             win the game. The damage is determined by random dice rolls and the
-            data is pulled from a hard-coded JSON file. The game is built using
+            data is pulled from a hard-coded JSON file. The game was built using
             Vanilla JavaScript, HTML, and Vanilla CSS. Deployed on Netlify.
           </p>
         </Container>
