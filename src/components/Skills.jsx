@@ -33,7 +33,6 @@ const Skills = () => {
   }, []);
   return (
     <Container className="text-white mt-5" style={{ marginBottom: 140 }}>
-      <h2 className="mb-5">My Skills</h2>
       <Container className="skills-cont">
         <div className="top-row">
           <div className="flex-item">

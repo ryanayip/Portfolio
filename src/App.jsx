@@ -14,7 +14,9 @@ function App() {
         <NavMain />
         <div id="About"></div>
         <About />
-        <div id="Skills"></div>
+        <h2 id="Skills" className="text-white mb-5">
+          My Skills
+        </h2>
         <Skills />
         <h2 id="Projects" className="text-white mb-5">
           My Projects
