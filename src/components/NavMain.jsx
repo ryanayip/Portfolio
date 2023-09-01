@@ -50,9 +50,6 @@ function NavMain() {
                 <Nav.Link href="#Projects" className="text-white hoverlined">
                   Projects
                 </Nav.Link>
-                <Nav.Link href="#Contact" className="text-white hoverlined">
-                  Contact
-                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </div>
