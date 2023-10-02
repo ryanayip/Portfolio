@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 import rpg from "../assets/projects/rpgpic.PNG";
 import grocery from "../assets/projects/grocerypal.PNG";
 import pantryplate from "../assets/projects/pplate.PNG";
-import coffee from "../assets/projects/coffee.PNG";
+import coffee from "../assets/projects/coffeeco.PNG";
 
 const Project = () => {
   return (
