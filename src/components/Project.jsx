@@ -6,6 +6,7 @@ import Image from "react-bootstrap/Image";
 import rpg from "../assets/projects/rpgpic.PNG";
 import grocery from "../assets/projects/grocerypal.PNG";
 import pantryplate from "../assets/projects/pplate.PNG";
+import coffee from "../assets/projects/coffee.PNG";
 
 const Project = () => {
   return (
@@ -91,6 +92,41 @@ const Project = () => {
           </a>{" "}
         </Container>
       </Container>
+      <Container className="text-white project-cont">
+        <Container className="cont-left">
+          <h2 className="mb-4">Yip & Co</h2>
+          <ul className="techItems">
+            <li className="techUsed">WordPress</li>
+            <li className="techUsed">HTML</li>
+            <li className="techUsed">CSS</li>
+          </ul>
+          <Button
+            size="lg"
+            className="view-btn"
+            href="https://fearless-ryanayip.wordpress.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            as="a"
+          >
+            View Project
+          </Button>
+          <p>
+            A landing page for a fictional company that sells a variety of
+            high-end coffee products. The site was built using WordPress, HTML,
+            and CSS. The site is deployed on WordPress.
+          </p>
+        </Container>
+        <Container className="cont-right">
+          <a
+            href="https://fearless-ryanayip.wordpress.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={coffee} className="project-pic" />
+          </a>{" "}
+        </Container>
+      </Container>
+
       <Container className="text-white project-cont">
         <Container className="cont-left">
           <h2 className="mb-4">RPG</h2>
