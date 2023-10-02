@@ -22,7 +22,6 @@ const Project = () => {
             <li className="techUsed">JavaScript</li>
             <li className="techUsed">HTML</li>
             <li className="techUsed">CSS</li>
-
             <li className="techUsed">Netlify</li>
           </ul>
           <Button
