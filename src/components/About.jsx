@@ -28,7 +28,7 @@ const About = () => {
         <h1>
           Hello, I'm <span id="headerName">Ryan Yip</span>
         </h1>
-        <h2>Front-End Software Engineer</h2>
+        <h2>Full-Stack Software Engineer</h2>
         <div className="mt-4 links" style={{ display: "flex", gap: 20 }}>
           <a
             href="https://github.com/ryanayip"
